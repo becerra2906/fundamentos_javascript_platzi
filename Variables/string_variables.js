@@ -19,7 +19,7 @@ var nombre_completo2;
  
 nombre_completo2 = `${nombreenminus.toUpperCase()} ${apellido}`; 
 
-
+var desafio = nombre.charAt(nombre.length -1);
 
 // toUpperCase pone en mayuscula todo el contenido
 // del string.
@@ -55,3 +55,5 @@ console.log(longitud_nombre);
 console.log(nombre_completo);
 console.log(nombre_completo2);
 console.log(segunda_tercera_nom)    
+
+console.log(desafio);
