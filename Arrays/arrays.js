@@ -58,4 +58,4 @@ function imprimir_nombre_y_edad(personas){
     }
 }
 
-console.log(imprimir_nombre_y_edad(personas))
+console.log(imprimir_nombre_y_edad(personas));
