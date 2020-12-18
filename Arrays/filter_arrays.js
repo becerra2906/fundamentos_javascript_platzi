@@ -37,11 +37,22 @@ personas = [alejandro, jorge, myriam, gloria, valentina];
 
 const mayorDe30 = (personas) => personas.edad >30;  
 
+const MenorDe30 =(personas) => personas.edad <30;
+
 var personasMayores = personas.filter(mayorDe30);
 
-console.log(personasMayores)
+var personasMenores = personas.filter(MenorDe30);
+
+console.log(personasMayores);
+console.log(personasMenores);
 
 // la función .filter permite filtar los elementos de un array que cumplan x condición. 
 
 
+// yo también puedo definir la función dentro del .filter, generando una función 
+// function(){
+    // acá voy a poner las condiciones a cumplir y lo que me debe retornar el filtro
+//}; 
+// el filtro retorna un array nuevo. Este podría guardarlo en una variable si necesito usarlo para otras operaciones. 
 
+// tarea, escribir filtro de personas que no son mayores de 30 (porque no puse altura en este array)
