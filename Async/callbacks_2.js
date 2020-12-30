@@ -32,3 +32,6 @@ function getLuke(){ $.get(LUKE_URL,ops, function(){
 // para que esta se ejecute antes de mostrar las siguientes peticiones y sus respuestas. Ahora bien, si se hace esto se pierde el paralelismo de ejecucion.
 // para lograr esto, se pone un function(){funcion_request(segundoId)} para que esta sea el call back del request y se ejecute cuando llegue el request del primero.
 // esto se logra nesting las funciones dentro de los call backs (importante que toca llamar al callback dentro de la función desde la que se genera el request al backend). (aunque esto es el llamado "call back hell") 
+
+
+//
