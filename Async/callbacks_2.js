@@ -25,3 +25,5 @@ function getLuke(){ $.get(LUKE_URL,ops, function(){
 
 // creo que tengo un problema con el linking a JQUERY lo soluciono después;
 // creo que si veré el curso de JQuery aunque creo que mi enfoque va a ser JS en forma, otras formas de hacer otras consultas a apis y GQL.
+
+// para hacer multiples requests debo crear una función que reciba como párametro el id del elemento que quiero pedirle al api. 
